@@ -48,30 +48,46 @@ Sentencias For
 
 ******************************************/
 
-for (var i = 0; i <= 10; i++) {
-    console.log(i)
+// for (var i = 0; i <= 10; i++) {
+//     console.log(i)
     
+// }
+
+
+// /***************************************** 
+// Sentencias While
+
+// ******************************************/
+
+// var j = 0
+// while (j <= 10) {
+//     console.log(j)
+//     j++
+// }
+
+// /***************************************** 
+// Sentencias do..while
+
+// ******************************************/
+
+// var x = 0
+// do {
+//     x++
+//     console.log(x)
+// } while (x <= 10)
+
+var edad = '10' // JS lo declara como valor falso
+
+if (edad){
+    console.log('Variable esta definida')
+}else{
+    console.log('Variable no definida')
 }
 
+// Operadores de igualdad
 
-/***************************************** 
-Sentencias While
-
-******************************************/
-
-var j = 0
-while (j <= 10) {
-    console.log(j)
-    j++
+if(edad === 10){
+    console.log('Variable con coersión')
+}else {
+    console.log('Variable sin coersión')
 }
-
-/***************************************** 
-Sentencias do..while
-
-******************************************/
-
-var x = 0
-do {
-    x++
-    console.log(x)
-} while (x <= 10)
