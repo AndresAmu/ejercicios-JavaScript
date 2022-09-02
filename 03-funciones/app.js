@@ -49,3 +49,28 @@ var edad3 = edadCalcular(2001)
 // console.log(edad2)
 // console.log(edad3)
 
+// Ejercicio de codificación 3
+
+/*
+* Calcular cuantos años le falta a una persona para que se jubile.
+* Una persona se jubila a los 65 años
+* Enviar como datos a la funcion su año de nacimineto y su nombre
+*/
+
+// Primer manera de resolver
+function jubilacion(edadJubilacion) {
+    var Andres = 1994 + edadJubilacion
+    return Andres
+}
+var anosParaJubilarme = jubilacion(65) - 2022
+console.log(anosParaJubilarme)
+
+//Segunda manera de resolver
+function calcularTiempoJubilacion(edadNacimiento, nombre) {
+    var edad = 2022 - edadNacimiento
+    var anoJubilacion = 65 - edad
+    console.log(nombre + ' le faltan ' + anoJubilacion + ' para su jubilacion')
+    
+}
+
+calcularTiempoJubilacion(1994, 'Andrés')
